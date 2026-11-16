@@ -1,0 +1,23 @@
+# API keys — NEVER commit these. Your battle.training key is shown once at
+# account creation; keep it in ~/.config/battle-training/key or a local
+# key file outside version control.
+.env
+.env.*
+key.txt
+*.key
+battle-training-key
+.config/
+
+# local test output
+replays/
+*.jsonl
+
+# node
+node_modules/
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
